@@ -7,9 +7,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "back", "back", "{02EA681E-C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "front", "front", "{651CBBBD-B5F7-43FA-ADEE-0B4C375646D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechsysLog.API", "back\TechsysLog.API\TechsysLog.API.csproj", "{B056D265-D719-45FF-B1A3-614826263FB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechsysLog.UI", "front\TechsysLog.UI\TechsysLog.UI.csproj", "{BA65488E-66C9-47BB-AD99-E4D210E8AD45}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B056D265-D719-45FF-B1A3-614826263FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B056D265-D719-45FF-B1A3-614826263FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B056D265-D719-45FF-B1A3-614826263FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B056D265-D719-45FF-B1A3-614826263FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA65488E-66C9-47BB-AD99-E4D210E8AD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA65488E-66C9-47BB-AD99-E4D210E8AD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA65488E-66C9-47BB-AD99-E4D210E8AD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA65488E-66C9-47BB-AD99-E4D210E8AD45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B056D265-D719-45FF-B1A3-614826263FB1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BA65488E-66C9-47BB-AD99-E4D210E8AD45} = {651CBBBD-B5F7-43FA-ADEE-0B4C375646D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE7E106D-5A40-439E-84D0-58D4BC194073}
